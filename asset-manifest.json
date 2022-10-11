@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.abd14f5d.css",
+    "main.js": "/shopping-cart/static/js/main.66a495fd.js",
+    "static/js/787.d6fe38e8.chunk.js": "/shopping-cart/static/js/787.d6fe38e8.chunk.js",
+    "static/media/dog-8.jpg": "/shopping-cart/static/media/dog-8.d94410b3a39f2a17a785.jpg",
+    "static/media/dog-5.jpg": "/shopping-cart/static/media/dog-5.0f107189f8221777e671.jpg",
+    "static/media/dog-background.jpg": "/shopping-cart/static/media/dog-background.d66dba55989b83284f26.jpg",
+    "static/media/dog-4.jpg": "/shopping-cart/static/media/dog-4.7ee738b416b6e9f15cb3.jpg",
+    "static/media/dog-3.jpg": "/shopping-cart/static/media/dog-3.938cf27e1b9942f84ded.jpg",
+    "static/media/dog-7.jpg": "/shopping-cart/static/media/dog-7.f5fde81223670f825837.jpg",
+    "static/media/dog-2.jpg": "/shopping-cart/static/media/dog-2.23323441c5c3f0c58705.jpg",
+    "static/media/dog-1.jpg": "/shopping-cart/static/media/dog-1.180e50992d0e45311488.jpg",
+    "static/media/dog-6.jpg": "/shopping-cart/static/media/dog-6.feff7dc04cc8c967ca80.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "static/media/github.svg": "/shopping-cart/static/media/github.81ecf9ebf2c1cd2efc8b98cdacf047a8.svg",
+    "static/media/twitter.svg": "/shopping-cart/static/media/twitter.0bdc7070ee0f8913c55214b28b73548d.svg",
+    "static/media/instagram.svg": "/shopping-cart/static/media/instagram.1e3e929a4cb3483be4a3d8c41e5f87ad.svg",
+    "static/media/mail.svg": "/shopping-cart/static/media/mail.a052963ab65805858d6cad7d793ab6e3.svg",
+    "static/media/facebook.svg": "/shopping-cart/static/media/facebook.a3ba8ff1d69299a9dae6993e6f7a42b6.svg",
+    "main.abd14f5d.css.map": "/shopping-cart/static/css/main.abd14f5d.css.map",
+    "main.66a495fd.js.map": "/shopping-cart/static/js/main.66a495fd.js.map",
+    "787.d6fe38e8.chunk.js.map": "/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd14f5d.css",
+    "static/js/main.66a495fd.js"
+  ]
+}
