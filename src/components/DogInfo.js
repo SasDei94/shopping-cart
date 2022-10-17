@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { dogs } from "./Dogs";
 import { motion } from "framer-motion";
 
@@ -33,9 +33,17 @@ function DogInfo(props) {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </div>
-          <button onClick={props.handleAddItem} id={dogId} className="addCart">
+          <button
+            onClick={props.handleAddItem}
+            id={dogId}
+            name={dogs[dogId].name}
+            className="addCart"
+          >
             Add to Cart
           </button>
+          <Link to="/products" className="backButton">
+            Back to Store
+          </Link>
         </div>
       </div>
     </motion.div>

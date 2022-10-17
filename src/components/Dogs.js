@@ -37,7 +37,7 @@ const dogs = [
   {
     id: 5,
     src: "dog-6.jpg",
-    name: "Lucy",
+    name: "Sally",
     breed: "Border Collie",
     price: 1299,
   },

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
+import Shipment from "./Shipment";
 
 function Navbar(props) {
   return (
@@ -15,7 +16,7 @@ function Navbar(props) {
           CONTACT
         </Link>
         <Link className="cart" to="/shopping-cart">
-          SHOPPING CART ({props.cart})
+          SHOPPING CART ({props.cartLength})
         </Link>
       </nav>
       <Outlet />

@@ -118,14 +118,15 @@ body {
 }
 
 .button:hover {
-  border-color: #a5c9ca;
-  color: #a5c9ca;
+  border-color: #f2f2f2;
+  color: #000000;
   fill: #a5c9ca;
+  background-color: #f2f2f2;
 }
 
 .button:active {
-  border-color: #f5efe6;
-  color: #f5efe6;
+  border-color: #f2f2f2;
+  color: #000000;
   fill: #f5efe6;
 }
 
@@ -146,7 +147,8 @@ body {
   padding: 15px;
 }
 
-.products--title {
+.products--title,
+.shoppingCart--title {
   background-color: #000000;
   padding: 5px 30px;
   font-family: "Big Shoulders Stencil Display", cursive;
@@ -220,13 +222,15 @@ body {
   margin-top: 20px;
 }
 
-.doginfo--body {
+.doginfo--body,
+.shoppingCart--body {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.doginfo--container {
+.doginfo--container,
+.shoppingCart--container {
   display: flex;
   background: #f2f2f2;
   color: #000000;
@@ -246,7 +250,8 @@ body {
   font-size: 24px;
 }
 
-.doginfo--breed {
+.doginfo--breed,
+.cart--breed {
   font-size: 10px;
   background-color: #395b64;
   padding: 0 3px;
@@ -264,7 +269,8 @@ body {
   font-size: 14px;
 }
 
-.addCart {
+.addCart,
+.cart--checkout {
   align-items: center;
   background-color: transparent;
   border: 2px solid #000000;
@@ -291,24 +297,128 @@ body {
   margin-top: 35px;
 }
 
-.addCart:focus {
+.addCart:focus,
+.cart--button:focus,
+.cart--checkout:focus {
   color: #000000;
 }
 
-.addCart:hover {
-  border-color: #a5c9ca;
-  color: #a5c9ca;
-  fill: #a5c9ca;
+.addCart:hover,
+.cart--button:hover,
+.cart--checkout:hover {
+  border-color: #000000;
+  color: #f2f2f2;
+  fill: #f2f2f2;
+  background-color: #000000;
 }
 
-.addCart:active {
+.addCart:active,
+.cart--button:active,
+.cart--checkout:active {
   border-color: #000000;
   color: #000000;
   fill: #000000;
+  background-color: #f2f2f2;
 }
 
 @media (min-width: 768px) {
-  .addCart {
+  .addCart,
+  .cart--checkout {
     min-width: 170px;
   }
+}
+
+.shoppingCart--container {
+  flex-direction: column;
+  width: 600px;
+}
+
+.cart--item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: solid 1px;
+}
+
+.cart--img {
+  width: 120px;
+  margin: 5px;
+  margin-right: 20px;
+}
+
+.cart--price {
+  margin-left: auto;
+}
+
+.cart--breed {
+  margin-top: 5px;
+}
+
+.cart--quantity {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart--count {
+  margin: 15px;
+}
+
+.cart--button {
+  border: 2px solid black;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.shoppingCart--title {
+  align-self: center;
+  color: #f2f2f2;
+  margin-bottom: 10px;
+}
+
+.cart--total {
+  font-family: "Zilla Slab", serif;
+  align-self: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.shoppingCart--empty {
+  align-self: center;
+}
+
+.backButton {
+  text-decoration: none;
+  color: red;
+  margin-top: 10px;
+  align-self: center;
+  font-size: 14px;
+}
+
+.backButton:hover {
+  text-decoration: underline;
+}
+
+.shipment--box {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background: #f2f2f2;
+  border: solid 3px #000000;
+  color: #000000;
+  padding: 15px;
+}
+
+.shipment--img {
+  width: 80%;
 }
